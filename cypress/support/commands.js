@@ -90,3 +90,11 @@ Cypress.Commands.add('getTodo', (id) => {
         failOnStatusCode: false
     })
 })
+
+Cypress.Commands.add('updateTodo', (body) => {
+    cy.request({
+        method: 'put',
+        url: apiHost + '/todos/' + body.id,
+        body: body
+        })
+})

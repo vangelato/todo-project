@@ -1,0 +1,8 @@
+{
+  "testFiles": "**/*.feature",
+  "env": {
+    "todoMvcUrl": "http://todomvc.com/examples/react/#",
+    "todoApiHost": "https://jsonplaceholder.typicode.com"
+  },
+  "video": false
+}
